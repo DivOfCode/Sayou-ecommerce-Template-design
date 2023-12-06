@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: #000;
+	background-color: #fff;
+	font-family: 'Playfair Display', serif;
+}
+
+#navbar{
+	font-family: 'PT Sans', sans-serif;
+}
+.logo{
+	width: 150px;
+}
+.input-group {
+    width: 80%;
+}
+.btn-outline-own{
+	color: #f66e71;
+	border: 1px solid #f66e71;
+	background-color: transparent;
+	transition: 0.3s ease;
+}
+.btn-outline-own:hover{
+	color: #fff;
+	border: 1px solid #f66e71;
+	background-color: #f66e71;
+}    
+.text-white{
+	color: #fff;
+}
+.form-control{
+    border: var(--bs-border-width) solid #f66e71;
+}
+.form-control:focus {
+    border-color: #f66e71;
+    box-shadow: 0 0 0 0.25rem rgb(246 110 113);
+}
+.slider{
+	background-image: url('../images/herobg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	border-radius: 20px 20px 20px 20px;
+}
+/* .hero img{
+	width: 50vh;
+} */
+.saleimg img{
+	width: 30vh;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 4px 2px 10px #9b9b9b;
+	transition: 0.5s ease;
+
+}
+.saleimg img:hover{
+	width: 30vh;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 6px 8px 0px #8080ff;	
+}
+.card{
+	border: 1px solid #c5e5e9;
+	border-radius: 5vh;
+}
+.sale1{
+	background-image: url('../images/products/herosale2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5vh;
+	color: #fff;
+}
+.sale2{
+	background-image: url('../images/products/herosale1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5vh;
+	color: #fff;
+}
+.mt-7 {
+    margin-top: 8rem !important;
+}
+#contact{
+	background-image: url('../images/contactbg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#footer {
+	border-radius: 20vh 20vh 0px 0px ;
+}
